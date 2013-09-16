@@ -1,0 +1,44 @@
+[
+  {
+    "source": "^I am on the Google Home Page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/search_steps.rb:1",
+    "steps": [
+      {
+        "name": "I am on the Google Home Page",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I search for \"Watir\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/search_steps.rb:9",
+    "steps": [
+      {
+        "name": "I search for \"Watir\"",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I should see at least ([\\d,]+) results$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/search_steps.rb:16",
+    "steps": [
+      {
+        "name": "I should see at least 100,000 results",
+        "args": [
+          {
+            "offset": 22,
+            "val": "100,000"
+          }
+        ]
+      }
+    ]
+  }
+]
